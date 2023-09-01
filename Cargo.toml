@@ -1,0 +1,12 @@
+[workspace]
+members = [
+    "node",
+    "pallets/template",
+    "runtime"
+]
+
+exclude = [
+    "provers"
+]
+[profile.release]
+panic = "unwind"
